@@ -1,0 +1,23 @@
+#root {
+  max-width: 1100px;
+  margin: 0 auto;
+  color: #e3e4e6;
+}
+
+@media screen and (max-width: 1100px) {
+  #root {
+    margin: 0 4rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #root {
+    margin: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #root {
+    margin: 0 1rem;
+  }
+}

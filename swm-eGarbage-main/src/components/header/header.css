@@ -1,0 +1,99 @@
+header {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  background: linear-gradient(90deg, #bc3cd8 0%, #c54b8c 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+header nav .nav-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-right: 1rem;
+}
+
+header nav .nav-sign {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+header nav .nav-menu {
+  cursor: pointer;
+  position: relative;
+  display: none;
+  transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 850px) {
+  header nav .nav-items,
+  header nav .nav-sign {
+    display: none;
+  }
+
+  header nav .nav-menu {
+    display: flex;
+  }
+
+  header nav .nav-menu .nav-items,
+  header nav .nav-menu .nav-sign {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header nav .nav-menu .nav-menu-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    position: absolute;
+    top: 0.3rem;
+    right: 2rem;
+
+    background: #c76c9d;
+
+    height: 250px;
+    width: 200px;
+
+    border-radius: 7px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header .logo {
+    font-size: 14px;
+  }
+  header nav .nav-items a {
+    font-size: 10px;
+  }
+
+  header nav .nav-menu .nav-menu-items {
+    height: 150px;
+    width: 100px;
+  }
+
+  header nav .nav-sign button {
+    font-size: 10px;
+    padding: 0.2rem 0.8rem;
+  }
+}
