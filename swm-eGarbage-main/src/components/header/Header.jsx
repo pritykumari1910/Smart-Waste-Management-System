@@ -21,7 +21,7 @@ const Menu = () => {
   return (
     <>
       <div className="nav-items">
-        <Link to="/home">Home</Link>
+        <Link to="/">Home</Link>
         <a href="#about">About</a>
       </div>
       <div className="nav-sign">
