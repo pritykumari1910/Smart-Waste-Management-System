@@ -10,14 +10,14 @@ import { getDatabase } from "firebase/database";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDAoM6ibpwo8shVdCHKkt5AfekfmNmiJNc",
-  authDomain: "dustbin-5d55a.firebaseapp.com",
-  databaseURL: "https://dustbin-5d55a-default-rtdb.firebaseio.com",
-  projectId: "dustbin-5d55a",
-  storageBucket: "dustbin-5d55a.appspot.com",
-  messagingSenderId: "335568282600",
-  appId: "1:335568282600:web:58dffc4d4b57c65f7ffa5d",
-  measurementId: "G-RZR2CFQYJE",
+  apiKey: ,
+  authDomain: ,
+  databaseURL: ,
+  projectId: ,
+  storageBucket: ,
+  messagingSenderId: ,
+  appId: ,
+  measurementId: ,
 };
 
 // Initialize Firebase
