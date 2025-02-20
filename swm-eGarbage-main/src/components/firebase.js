@@ -10,14 +10,14 @@ import { getDatabase } from "firebase/database";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
- apiKey: "AIzaSyBloghfhFwhEc4r9qdOTel7CnJ6iz7m9k0",
-  authDomain: "smart-bin-b30d2.firebaseapp.com",
-  databaseURL: "https://smart-bin-b30d2-default-rtdb.firebaseio.com",
-  projectId: "smart-bin-b30d2",
-  storageBucket: "smart-bin-b30d2.firebasestorage.app",
-  messagingSenderId: "23174065932",
-  appId: "1:23174065932:web:2c546fe56c7d9bcc412329",
-  measurementId: "G-ED76D79XWV"
+ apiKey: "AIzaSyDAoM6ibpwo8shVdCHKkt5AfekfmNmiJNc",
+  authDomain: "dustbin-5d55a.firebaseapp.com",
+  databaseURL: "https://dustbin-5d55a-default-rtdb.firebaseio.com",
+  projectId: "dustbin-5d55a",
+  storageBucket: "dustbin-5d55a.firebasestorage.app",
+  messagingSenderId: "335568282600",
+  appId: "1:335568282600:web:58dffc4d4b57c65f7ffa5d",
+  measurementId: "G-RZR2CFQYJE"
 };
 
 // Initialize Firebase
